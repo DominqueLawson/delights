@@ -39,10 +39,10 @@ class RestaurantCard extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(restaurant.name,
-                          style: const TextStyle(
-                            fontWeight: FontWeight.w700,
-                          )),
+                      Text(
+                        restaurant.name,
+                        style: const TextStyle(fontWeight: FontWeight.w700),
+                      ),
                       const SizedBox(height: 4),
                       Row(
                         children: [
@@ -61,7 +61,9 @@ class RestaurantCard extends StatelessWidget {
                   visualDensity: VisualDensity.compact,
                   onPressed: onFavorite,
                   icon: Icon(
-                    restaurant.isFavorite ? Icons.favorite : Icons.favorite_border,
+                    restaurant.isFavorite
+                        ? Icons.favorite
+                        : Icons.favorite_border,
                   ),
                 ),
               ],

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../restaurant/data/models/restaurant_model.dart';
-import '../../data/models/category_model';
+import '../../data/models/category_model.dart';
 
 class HomeViewModel extends ChangeNotifier {
   final TextEditingController searchCtrl = TextEditingController();

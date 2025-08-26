@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/feature/home/presentation/view_models/home_view_model.dart';
 import 'package:provider/provider.dart';
 
-import '../../../restaurant/presentation/ui_components/resturant_card';
-import '../ui_components/catagory_chip_row';
-import '../ui_components/filter_chips_row';
+import '../../../restaurant/presentation/ui_components/resturant_card.dart';
+import '../ui_components/catagory_chip_row.dart';
+import '../ui_components/filter_chips_row.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

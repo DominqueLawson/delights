@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../home/models/category_model.dart';
+import '../../data/models/category_model.dart';
 
 class CategoryChipRow extends StatelessWidget {
   const CategoryChipRow({super.key, required this.categories});
